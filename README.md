@@ -1,36 +1,29 @@
-# &lt;custom-element&gt; element
+# &lt;native-datepicker&gt; element
 
-Boilerplate for creating a custom element.
+Custom Element for a lightweight, library-free datepicker that enhances native date inputs with modern styling and extended functionality.
+Easy to integrate and customize, this solution provides a seamless user experience without additional dependencies.
 
 ## Installation
-Available on [npm](https://www.npmjs.com/) as [**@github/custom-element-element**](https://www.npmjs.com/package/@github/custom-element-element).
+
 ```
-$ npm install --save @github/custom-element-element
+$ npm install --save @sonicgarden/native-datepicker-element
 ```
 
 ## Usage
 
-### Script
-
-Import as ES modules:
+### Example
 
 ```js
-import '@github/custom-element-element'
+import '@sonicgarden/native-datepicker-element'
 ```
 
-Include with a script tag:
 
 ```html
-<script type="module" src="./node_modules/@github/custom-element-element/dist/index.js">
-```
-
-An example Custom Element. This documentation ends up in the
-README so describe how this elements works here.
-
-You can event add examples on the element is used with Markdown.
-
-```
-<custom-element></custom-element>
+<form>
+  <native-datepicker name="date" value="2024-08-10" min="2024-08-01" max="2024-08-31">
+    <span class="calendar-icon"></span>
+  </native-datepicker>
+</form>
 ```
 
 ## Browser support
