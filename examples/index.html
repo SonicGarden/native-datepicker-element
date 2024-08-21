@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>custom-element demo</title>
-  </head>
-  <body>
-    <custom-element></custom-element>
 
-    <script type="module">
-      // import 'https://unpkg.com/@github/custom-element-boilerplate@latest/dist/custom-element.js'
-      import '../src/custom-element.ts'
-    </script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <title>native-datepicker-element demo</title>
+</head>
+
+<body>
+  <form method="get" action="#">
+    <native-datepicker name="date" value="2024-08-10" min="2024-08-01" max="2024-08-31">
+      <button type="button">calendar</button>
+    </native-datepicker>
+    <input type="submit" value="submit">
+  </form>
+
+  <script type="module">
+    // import 'https://unpkg.com/@github/custom-element-boilerplate@latest/dist/custom-element.js'
+    import '../src/native-datepicker.ts'
+  </script>
+</body>
+
 </html>
