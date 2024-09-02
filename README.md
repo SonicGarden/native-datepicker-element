@@ -28,14 +28,7 @@ import '@sonicgarden/native-datepicker-element'
 
 ## Browser support
 
-Browsers without native [custom element support][support] require a [polyfill][].
-- Chrome
-- Firefox
-- Safari
-- Microsoft Edge
-
-[support]: https://caniuse.com/custom-elementsv1
-[polyfill]: https://github.com/webcomponents/custom-elements
+If support for Safari versions below 16.4 is needed, please install the `element-internals-polyfill`.
 
 ## License
 
